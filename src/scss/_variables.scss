@@ -1,0 +1,21 @@
+:root {
+  /* отступы — все кратны 4px */
+  --space-xs: 0.25rem;          /* 4px */
+  --space-sm: 0.5rem;           /* 8px */
+  --container-padding: 16px;    /* гориз. гуттер: page и колонки карточки */
+  --space-header-bottom: 32px;  /* фикс. px из макета: шапка → контент */
+  --space-col-bottom: 52px;     /* фикс. px из макета: низ колонок */
+  --page-padding-block: clamp(1.25rem, 3vw, 2.5rem);
+  --content-gap: clamp(1rem, 2.5vw, 1.25rem);
+  --row-gap: 6px;
+
+  /* переиспользуемые */
+  --color-text: #202020;
+  --color-muted: #808080;
+  --color-text-secondary: #444444;
+  --color-row-bg: #f6f7f8;
+  --font-weight-bold: 700;
+  --font-size-sm: 0.875rem;
+  --font-size-2xs: 70%;
+  --transition-base: 0.2s ease;
+}
